@@ -2,7 +2,7 @@
 
 # List of NTP servers to use.
 {% for server in chrony_config_server %}
-server {{ server }} iburst
+server {{ server }}
 {% endfor %}
 
 # This directive specify the location of the file containing ID/key pairs for
@@ -31,6 +31,6 @@ rtcsync
 makestep 1 3
 
 # Extra options
-{% for k, v in chrony_config_extra_options.items() %}
-{{ k }} {{ v }}
+{% for option in chrony_config_extra_options %}
+{{ option }}
 {% endfor %}

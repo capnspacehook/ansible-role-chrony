@@ -1,8 +1,7 @@
 ---
 galaxy_info:
-  author: ericsysmin
+  author: capnspacehook
   role_name: chrony
-  company: ericsymsin
   description: This role enables users to install and configure chrony on their hosts.
   license: MIT
   min_ansible_version: 2.4

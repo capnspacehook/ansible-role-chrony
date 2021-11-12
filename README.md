@@ -1,6 +1,8 @@
-# ericsysmin.chrony
+# capnspacehook.chrony
 
 This role enables users to install and configure chrony on their hosts.
+
+This is a fork of https://github.com/ericsysmin/ansible-role-chrony.
 
 ## Build Status
 
